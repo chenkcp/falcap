@@ -1,0 +1,136 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# AWS Lambda deployment artifacts
+lambda.zip
+*.zip
+aws-layers/
+lambda-package/
+package/
+
+# Dependencies (use Lambda layers instead)
+dependencies/
+/dependencies/
+node_modules/
+
+# Configuration files (may contain secrets)
+config.json
+tmp/
+*.json.bak
+
+# Development and testing files
+playground.py
+web_server.py
+test_*.py
+*_test.py
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Scripts and build files
+scripts/
+build_*.ps1
+build_*.sh
+*.ps1
+*.sh
+*.bat
+*.cmd
+deploy*
+build*
+web*
+test_*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+*.out
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Documentation that's not needed in deployment
+README.md
+docs/
+*.md
+!deployment.md
+
+# Git
+.git/
+.gitattributes
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Local development tools
+.mypy_cache/
+.dmypy.json
+dmypy.json
